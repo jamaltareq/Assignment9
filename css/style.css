@@ -1,0 +1,81 @@
+body {
+    background-color: #1a1b22;
+    font-family: sans-serif;
+}
+
+.counts {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.counts .titel {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.counts .titel span {
+    margin-top: 20px;
+    width: 70%;
+    font-size: 30px;
+    display: inline;
+    position: relative;
+    direction: rtl;
+}
+
+.counts .titel span {
+    color: white;
+}
+
+.counts .titel p:nth-child(1) {
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    color: #1df3a0;
+    display: block;
+    font-size: 24px;
+}
+
+.dots {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dots::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -34px;
+    width: 51%;
+    height: 90%;
+    background-image: url(../image/dots.png);
+    z-index: -10;
+    opacity: .5;
+}
+
+.tran {
+    direction: rtl;
+    font-size: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: #1df3a0 1px solid;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.day {
+    color: #1df3a0;
+    font-weight: 800;
+}

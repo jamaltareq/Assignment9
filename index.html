@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/madia.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>About</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="counts col-12">
+          <div class="titel pt-md-4">
+            <p><i class="fa-solid fa-quote-right"></i></p>
+            <span class="pt-4" id="contentq"> </span>
+          </div>
+          <span class="text-white tran" id="saidarb"></span>
+        </div>
+        <div class="row d-flex">
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-start flex-column text-white"
+          >
+            <h2 class="day">Quote of the Day</h2>
+            <p>Press the button below to recieve a random quote!</p>
+            <button onclick="qoute()">New Quote</button>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center position-relative flex-column dots"
+            id="image"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
